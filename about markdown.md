@@ -47,7 +47,7 @@ Markdown 的目标是实现「易读易写」。
 ##图片
 
     ![代替文字](/img.jpg)
-![代替文字](/dome.jpg)
+![代替文字](http://ww3.sinaimg.cn/bmiddle/475b3d56jw1f1pugf9auyj20wb0ku0x6.jpg)
 
 
 详细叙述如下：
