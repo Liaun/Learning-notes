@@ -1,0 +1,27 @@
+## 使用字体图标
+
+使用icomoon.io 生产字体文件
+
+css中设置@font-face
+    @font-face{
+		font-family: "imooc-icon";
+		src: url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
+		src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype")
+			 ,url("../fonts/icomoon.woff") format("woff")
+			 ,url("../fonts/icomoon.ttf") format("truetype")
+			 ,url("../fonts/icomoon.svg") format("svg");
+		font-weight: normal;
+		font-style: normal;
+
+ 设置图标标签的类属性
+
+     .imooc-icon{
+		font-family: "imooc-icon";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 64px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+  
