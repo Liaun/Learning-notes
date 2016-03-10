@@ -3,7 +3,8 @@
 使用icomoon.io 生产字体文件
 
 css中设置@font-face
-    @font-face{
+    
+     @font-face{
 		font-family: "imooc-icon";
 		src: url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
 		src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype")
