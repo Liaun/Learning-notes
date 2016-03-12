@@ -1,0 +1,87 @@
+##开始学习javascript
+
+JavaScript 是脚本语言
+
+JavaScript 是一种轻量级的编程语言。
+
+JavaScript 是可插入 HTML 页面的编程代码。
+
+JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行。
+
+
+
+####javascript:写html输出
+
+    document.write("<h1>这是js输出的文字</h1>")
+
+####对事件作出反应
+
+    <button type="button" onclick="alert('弹出的信息')">按钮</button>
+
+####改变html的内容
+
+    function abc() {
+	x=document.getElementById('demo');
+    x.innerHTML="这是改变的内容";
+}
+
+####改变html的样式
+
+     x.style.color="red";
+
+###变量
+
+    function bianliang() {
+	var pi=3.14;
+	var name="liaun";
+	var answer="yes";
+	document.write("pi")
+     }
+
+####给变量赋值 使用 =
+
+##JavaScript 数据类型
+
+####字符串
+    
+    var carname="Bill Gates";
+
+####数字
+
+    var x=5;
+
+
+####布尔
+
+    var x=true
+    var y=false
+
+####数组
+    
+    var cars = new Array();
+cars[0] = "Audi";
+cars[1] = "BMW";
+cars[2] = "Volvo";
+或者
+    var cars=new Array("Audi","BMW","Volvo");
+或者
+    var cars=["Audi","BMW","Volvo"];
+
+###JavaScript 对象
+
+    var person={firstname:"Bill", lastname:"Gates", id:5566};
+
+实例
+    name=person.lastname;
+name=person["lastname"];
+
+
+使用var声明的是局部变量，只能在函数内部访问它。
+
+
+###运算符
+
+运算符 = 用于赋值
+运算符 + 用于加值
+
+
